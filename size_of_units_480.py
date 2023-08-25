@@ -7,8 +7,8 @@ HEIGHT = LENGTH; WIDTH = LENGTH
 import numpy as np
 import cv2 as cv
 
-import color as u8
-colors = [u8.red, u8.green, u8.blue, u8.yellow, u8.purple]
+# import color as u8
+# colors = [u8.red, u8.green, u8.blue, u8.yellow, u8.purple]
 
 mask = np.zeros((LENGTH, LENGTH), dtype=np.uint8)
 
